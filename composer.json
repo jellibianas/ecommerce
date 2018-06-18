@@ -42,7 +42,9 @@
         "liip/imagine-bundle": "^1.5",
         "knplabs/knp-paginator-bundle": "2.5.1",
         "presta/sitemap-bundle": "1.4.2",
-        "hwi/oauth-bundle": "0.5.3"
+        "hwi/oauth-bundle": "0.5.3",
+        "phpunit/phpunit": "^5.7",
+        "behat/behat": "^3.4"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
