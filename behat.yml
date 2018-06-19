@@ -1,0 +1,17 @@
+# behat.yml
+default:
+    autoload: features
+    extensions:
+        Behat\Symfony2Extension: ~
+        Behat\MinkExtension:
+            base_url: http://google.fr
+            browser_name: 'chrome'
+            sessions:
+                my_session:
+                    selenium2: ~
+    suites:
+        ecommerce:
+            contexts:
+                - Context\FeatureContext
+            type: symfony_bundle
+            bundle: 'ShopBundle'
