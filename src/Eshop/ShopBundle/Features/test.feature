@@ -1,6 +1,5 @@
 Feature: Test
-  Test de la page d'accueil qui est sensée afficher "Latest products"
+  Test de la page accueil
 
-  Scenario: La page Accueil affiche bien "Latest products"
+  Scenario: La page Accueil affiche bien
     Given I am on homepage
-    Given I am on showCart

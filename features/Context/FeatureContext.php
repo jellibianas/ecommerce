@@ -1,14 +1,12 @@
 <?php
-
 namespace Context;
-
 use Behat\Behat\Context\Context;
-use Behat\MinkExtension\Context\MinkContext;
-use Behat\Behat\Context\SnippetAcceptingContext;
+use Behat\Gherkin\Node\PyStringNode;
+use Behat\Gherkin\Node\TableNode;
 /**
  * Defines application features from the specific context.
  */
-class FeatureContext extends MinkContext implements Context,SnippetAcceptingContext
+class FeatureContext implements Context
 {
     /**
      * Initializes context.
@@ -19,28 +17,5 @@ class FeatureContext extends MinkContext implements Context,SnippetAcceptingCont
      */
     public function __construct()
     {
-    }
-
-    /**
-     * @Given |I am on |the homepage
-     */
-    public function iAmOnTheHomepage()
-    {
-        throw new PendingException();
-    }
-
-    /**
-     * @Then I should see :arg1
-     */
-    public function iShouldSee($arg1)
-    {
-        throw new PendingException();
-    }
-    /**
-     * @Given I am on showCart
-     */
-    public function iAmOnShowCart()
-    {
-        throw new PendingException();
     }
 }
