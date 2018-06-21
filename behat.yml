@@ -4,7 +4,7 @@ default:
     extensions:
         Behat\Symfony2Extension: ~
         Behat\MinkExtension:
-            base_url: http://google.fr
+            base_url: http://localhost/ecommerce/web/app_dev.php
             browser_name: 'chrome'
             sessions:
                 my_session:
